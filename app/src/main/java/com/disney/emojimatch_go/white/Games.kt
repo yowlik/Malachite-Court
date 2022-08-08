@@ -35,14 +35,14 @@ class Games (var c: Context,var gameInt: GameInt): View(c)
             meteor.add(map)
         }
         time=time+10+speed
-        val meteorWidth=viewWidth/3
+        val meteorWidth=viewWidth/5
         val meteorHeight=meteorWidth+10
         myPaint!!.style= Paint.Style.FILL
         val d=resources.getDrawable(R.drawable.characters,null)
         d.setBounds(
-            position* viewWidth / 3 + viewWidth / 15 + 25,
-            viewHeight-2-meteorHeight,
-            position*viewWidth/3+viewWidth/15+meteorWidth-25,
+            position* viewWidth / 3 + viewWidth / 15,
+            viewHeight-2-2*meteorHeight,
+            position*viewWidth/3+viewWidth/15+meteorWidth,
             viewHeight-2
         )
         d.draw(canvas!!)
