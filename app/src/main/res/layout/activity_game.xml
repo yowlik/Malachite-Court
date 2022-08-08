@@ -18,6 +18,7 @@
         android:layout_gravity="center"
         android:layout_margin="15dp"
         android:text="Score : 0"
+        android:textStyle="italic"
         android:textSize="28sp"
         android:textColor="@color/black"
         />
@@ -30,7 +31,7 @@
         android:layout_margin="15dp"
         android:gravity="center"
         android:text="Start"
-        app:backgroundTint="#148E19" />
+        app:backgroundTint="#2065ED" />
 
 
 </LinearLayout>

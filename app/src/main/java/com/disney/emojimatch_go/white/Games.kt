@@ -35,7 +35,7 @@ class Games (var c: Context,var gameInt: GameInt): View(c)
             meteor.add(map)
         }
         time=time+10+speed
-        val meteorWidth=viewWidth/5
+        val meteorWidth=viewWidth/3
         val meteorHeight=meteorWidth+10
         myPaint!!.style= Paint.Style.FILL
         val d=resources.getDrawable(R.drawable.characters,null)
